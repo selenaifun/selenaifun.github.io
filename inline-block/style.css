@@ -1,0 +1,81 @@
+.main {}
+
+.inline-block {
+    vertical-align: center;
+}
+
+.inline-block div {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid blueviolet;
+    vertical-align: baseline;
+}
+
+header {}
+
+.main {
+    width: 200%;
+    height: 200px;
+    border: 1px solid black;
+    line-height: 100%;
+    text-align: center;
+}
+
+
+/* 滑鼠移過去會閃 */
+
+.main [id="box"]:hover .like,
+.main [id="cart"]:hover .cart {
+    display: block;
+    opacity: 0;
+}
+
+#box2 {
+    position: relative;
+    top: 0;
+    left: 15;
+}
+
+
+/* 滑鼠移過去link的圖示會閃＋控制位置 */
+
+.like {
+    color: white;
+    background: red;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 50px;
+    opacity: 0;
+}
+
+
+/* 一樣的語法放在上面會先出現 */
+
+.like .cart {
+    color: white;
+    background-color: red position: relative;
+}
+
+.like {
+    left: 0;
+}
+
+.cart {
+    left: 0;
+}
+
+.mask {
+    display: block;
+    opacity: 1;
+}
+/* 設定灰色遮罩 還是可以fade的質感 */
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    opacity: 1;
+
+}

@@ -1,0 +1,10 @@
+/* Sep Workshop */
+#ac-globalfooter .ac-gf-sosumi li:lang(zh-TW) {
+    font-family: 'PingFang TC', 'Helvetica Neue', 'Helvetica', 'STHeitiTC-Light', 'Arial', sans-serif;
+    font-size: 10px;
+}
+
+.dual-speakers .section-content .icon-shim{
+	font-family: 'PingFang TC', 'Helvetica Neue', 'Helvetica', 'STHeitiTC-Light', 'Arial', sans-serif;
+	font-size: 16px;
+}
