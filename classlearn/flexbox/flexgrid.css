@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    height: 200px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid black;
+    background: tomato;
+}
+
+#box2 {
+    width: 200px;
+}
+
+#box3 {
+    width: 150px;
+}
+
+.justify-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
