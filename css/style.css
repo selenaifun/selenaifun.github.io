@@ -1,5 +1,74 @@
-.nav {}
+body {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: Comic Sans MS, sans-serif, monospace, sans-serif;
+    color: #000000;
+    font-size: 15px;
+    line-height: 150%;
+    word-wrap: break-word;
+}
 
-.container {}
+nav,
+nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
 
-.nav_bar {}
+nav {
+    text-decoration: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(54, 27, 3);
+    color: white;
+    font-size: 24px;
+}
+
+nav [class^="navbar"] {
+    flex-flow: row wrap;
+}
+
+.navbar-right {
+    margin-left: auto;
+}
+
+nav ul li {
+    width: 720;
+    text-align: right;
+    padding: 15px;
+    cursor: default;
+    text-decoration: none;
+}
+
+nav ul li:hover:not(.brand) {
+    background-color: rgb(100, 50, 3, 0.938);
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+    nav [class^="navbar"] {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+}
+
+header {
+    padding: 20px;
+    margin: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    padding: 40px;
+    background-color: rgb(54, 27, 3);
+    color: white;
+    display: block;
+}
