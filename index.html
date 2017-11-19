@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="https://resnick1223.github.io/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/flexgrid.css">
     <title>Hello! I'm Selenaifun</title>
@@ -21,10 +21,10 @@
                 </a>
             </li>
             <li>
-                <a href="./About/index.html">About</a>
+                <a href="">About</a>
             </li>
             <li>
-                <a href="./Protfolio/index.html">Protfolio</a>
+                <a href="">Protfolio</a>
             </li>
             <li>
                 <a href="">Contact Me</a>
@@ -32,23 +32,125 @@
         </ul>
     </nav>
     <!-- nav end -->
-    <!-- header -->
+    <!-- Hero Banner-->
     <header>
-        <h1>Hello! This is my final homework</h1>
+        <div class="header-background">
+            <div class="header-title">
+                <h1 class="title">Welcome to Nara</h1>
+                <p class="title-description">The birthplace of Japanese civilization</p>
+            </div>
+        </div>
     </header>
     <!-- header end -->
     <!-- intro -->
     <section>
-        <div class="content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius aliquid recusandae? Corporis ab quasi reprehenderit
-            mollitia accusamus officia earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur
-            maxime assumenda architecto, iste quisquam odio unde omnis. Velit mollitia adipisci delectus, officiis praesentium
-            ut iusto alias unde repellat aperiam eum harum asperiores nemo voluptatum dolor commodi ex deleniti sunt. Doloribus
-            voluptatibus voluptate dignissimos hic! Reiciendis iusto saepe quibusdam obcaecati, molestiae maiores facilis
-            officia ab illum, laboriosam beatae quas placeat inventore, enim cumque veritatis. Distinctio molestias iure
-            voluptate deleniti libero, aut doloribus autem nostrum praesentium ullam itaque dolor recusandae dolore aspernatur
-            quas nisi mollitia sit! Veniam at consequatur fugit porro, modi odit dolores asperiores quod aspernatur minima
-            qui. Ex, velit!
+        <div class="container">
+            <div class="section-header">
+                <h1>熱門景點</h1>
+                <h3>只需要步行即可到達你想去的地方</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-address-card" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="park">奈良公園</h3>
+                        <img src="./images/park.jpg" width="200px" height="150px">
+                        <p>奈良縣立都市公園於西元1880年開園，大家通常將周邊的興福寺、東大寺、春日大社等寺廟合併統稱為奈良公園，可說是賞楓、賞櫻皆宜的名所。園內除各式古跡寺廟與博物館外，最受遊客喜愛的，肯定就是公園內超過1千頭以上的鹿。
+                            公園內沿路有許多販賣鹿仙貝(鹿せんべい)的攤販，統一價格就是每份150日圓，大家可買來餵食鹿群，當然得有群鹿蜂擁而上的心理準備就是。因為擺攤位的人有許多招數驅離鹿群，所以鹿群們被訓練得平常不會妄想攤位上的鹿餅，但可是會細心觀察觀光客的動向，當你出現掏錢購買鹿餅的動作時，就得有立即面臨鹿群圍攻的心理準備囉！
+                        </p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-envelope-open" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="tohdaiji">東大寺</h3>
+                        <img src="./images/tohdaiji07.jpg" width="200px" height="150px">
+                        <p>說到奈良，就不能不提奈良的大佛，供奉在東大寺金堂——大佛殿內的大佛，已經是奈良的象徵了。東大寺的大佛守護奈良上千年，為什麽如此巨大的佛像被建造在奈良呢？翻開書卷，縱觀從佛教傳來日本直到昭和年間大修理的過程，一起解讀大佛歷史。</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-microchip" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="spring">春日大社</h3>
+                        <img src="./images/spring.jpg" width="200px" height="150px">
+                        <p>春日大社這片土地最初供奉的是春日的土地神。後由藤原氏將“武甕槌命”和“經津主命”分別從鹿島、香取請入此地供奉，之後又迎入了枚岡的“祖神天兒屋根命”和“比売神”。768年（神護景雲2年），集這四個神靈爲一處的春日社成立，本來是藤原氏家社的春日社，發展成爲國家舉行祭祀活動的地方。
+                        </p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-anchor" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="street">奈良町</h3>
+                        <img src="./images/street.jpg" width="200px" height="150px">
+                        <p>奈良町先是作為寺院、神社的街區，然後是作為商人的街區昌盛至今。留存著許多町家的街區，讓人感受到餘味無盡的古典氣氛。漫步街中，相信一定能找到一處令你滿意的去處。</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-beer" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="east">東向商店街</h3>
+                        <img src="./images/east.jpg" width="200px" height="150px">
+                        <p>從近鐵奈良站往東大寺出口，一出站就是這條「東向商店街」，但其實它不是單一條長長的商店街，而是包含周圍”井”字型的區域都有商店。大家走完東向商店通，可以接的三條通，然後走小西商店街回到近鐵奈良，剛好轉一圈。</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-random" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="two">二月堂</h3>
+                        <img src="./images/two.jpg" width="200px" height="150px">
+                        <p>二月堂名字的由來，是因為東大寺每年的農曆二月都會在這裡舉辦"修二會" 代表人們向堂內觀音像懺悔過去的罪行，從二世紀舉辦以來已經有一千兩百多次了。推薦這裡是因為這裡的夕陽超美的！</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-motorcycle" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="temple">興福寺</h3>
+                        <img src="./images/temple.JPG" width="200px" height="150px">
+                        <p>身影倒映在猿澤池中的興福寺五重塔，是奈良的標誌性風景。傳說前身是根據藤原鐮足的遺願建成的山階寺，後遷至飛鳥稱爲廄坂寺，平城遷都後又被遷至現地的。而實際上興福寺是鐮足之子，藤原不比等發願建立藤原氏的家寺。</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <!--section-box-->
+                    <div class="section-box">
+                        <div class="section-box-icon">
+                            <i class="fa fa-5x fa-ship" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="section-box-title" id="station">近鐵奈良站</h3>
+                        <img src="./images/station.jpg" width="200px" height="150px">
+                        <p>沿著【小西さくら通り商店街】走回近鐵奈良站很快，約莫三分鐘就到了，從這邊的入口進入近鐵，跟著指標走，便可以看到奈良必吃的「柿葉壽司」，在近鐵同一個出口內，還有「大佛布丁」等美食，個人覺得都非常值得買來試試喔！</p>
+                    </div>
+                    <!--section-box-end-->
+                </div>
+            </div>
         </div>
     </section>
     <!-- intro end -->

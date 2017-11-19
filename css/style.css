@@ -1,52 +1,43 @@
-body {
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-    background-color: #FFFFFF;
-    font-family: Comic Sans MS, sans-serif, monospace, sans-serif;
-    color: #000000;
-    font-size: 15px;
-    line-height: 150%;
-    word-wrap: break-word;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 nav,
 nav ul {
-    list-style: none;
     display: flex;
-    text-decoration: none;
 }
 
 nav {
-    text-decoration: none;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgb(54, 27, 3);
+    background-color: #806D40;
     color: white;
-    font-size: 24px;
 }
 
 nav [class^="navbar"] {
     flex-flow: row wrap;
 }
 
-.navbar-right {
-    margin-left: auto;
-}
-
 nav ul li {
-    width: 720;
-    text-align: right;
+    text-align: center;
     padding: 15px;
     cursor: default;
-    text-decoration: none;
 }
 
 nav ul li:hover:not(.brand) {
-    background-color: rgb(100, 50, 3, 0.938);
+    background-color: #382633;
     text-align: center;
     padding: 15px;
     cursor: pointer;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 560px) {
@@ -56,19 +47,71 @@ nav ul li:hover:not(.brand) {
     }
 }
 
-header {
-    padding: 20px;
-    margin: 20px;
+body {
+    background-color: white;
+}
+
+.header-background {
+    width: 100%;
+    height: 480px;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* container 的設定 */
+
+.container-fluid,
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
+    padding: 30px 0;
+}
+
+section .section-header {
+    text-align: center;
+}
+
+.section-box {
+    width: 100%;
+    border: 1px solid #382633;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.section-box-title {
+    text-align: center;
+}
+
+.section-box:hover {
+    background-color: #382633;
+    color: white;
 }
 
 footer {
     padding: 40px;
-    background-color: rgb(54, 27, 3);
+    background-color: #806D40;
+    text-align: center;
     color: white;
     display: block;
 }
