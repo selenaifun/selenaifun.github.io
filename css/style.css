@@ -108,6 +108,23 @@ section .section-header {
     color: white;
 }
 
+.row {
+    flex-direction: row;
+    flex-flow: row wrap;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #7c2e0088;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 footer {
     padding: 40px;
     background-color: #806D40;
